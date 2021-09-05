@@ -1,4 +1,4 @@
- :root {
+:root {
     --main-purple: #280137;
     --main-black: #171717;
     --main-cream: #fffddb;
@@ -211,7 +211,7 @@ html {
 
 .img-container {
     border-color: var(--main-cream);
-    padding-bottom: 3.5rem;
+    padding-bottom: 3.3rem;
     text-align: center;
     border-style:ridge;
     border-radius: 20%;
@@ -242,7 +242,7 @@ html {
 
     .about-content h1 {
         font-size: 2.5rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
 
@@ -254,7 +254,7 @@ html {
         display:flex;
         flex-direction: column;
         align-items: center;
-        height: 150vh;
+        height: 120vh;
     }
 
     .projects-header {  
@@ -343,7 +343,7 @@ html {
 
     @media screen and (max-width: 1160px)  {
         .projects {
-            height: 1900px;
+            height: 2400px;
         }
         
         .projects-container {
