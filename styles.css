@@ -196,6 +196,7 @@ html {
     position: relative;
     align-items: center;
     justify-content: center;
+    padding-right: 2.5rem;
 }
 
 .about-content h1 {
@@ -217,7 +218,7 @@ html {
 }
 
 #about-img {
-    height: 100%;
+    height: 80%;
     width: 80%;
 }
 
@@ -230,7 +231,7 @@ html {
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 120vh;
+        height: 150vh;
     }
     .about-content {
         text-align: center;
@@ -348,12 +349,10 @@ html {
             grid-template-columns: auto;
             justify-self: center;
             align-items: center;
-            height: 50vh;
         }
 
         .project-button {
             display: flex;
-            margin-top: 59rem;
         }
         .projects h1{ 
             font-size: 3rem;
@@ -378,12 +377,16 @@ html {
     }
 
     .contact-me a {
-        color:var(--main-cream)
+        color:var(--main-cream);
+        transition: .2s linear;
+    }
+
+    .contact-me a:hover{
+        transform:scale(1.1);
     }
 
     .contact-content {
         background-color: var(--main-black);
-        margin-top: 2rem;
         padding: 2rem;
         display: flex;
         align-items: center;
@@ -430,7 +433,8 @@ html {
 
     @media screen and (max-width: 1060px) {
         .contact-me p {
-            padding: 2rem;
+           height: 100px;
+           padding: 0 auto;
             width: 100%;
         }
 
