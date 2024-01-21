@@ -180,10 +180,10 @@ html {
 .about-container {
     background:#171717;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr;
     align-items: center;
     justify-self: center;
-    height: 120vh; /* 90 percent of the viewport */
+    height: 90vh; /* 90 percent of the viewport */
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
