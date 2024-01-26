@@ -234,14 +234,14 @@ html {
     }
     .about-content {
         text-align: left;
-        margin-bottom: .5rem;
+        margin-bottom: 1.5rem;
         justify-self: left;
         padding-left: 5rem;
     }
 
     .about-content h1 {
-        font-size: 3rem;
-        margin-top: .4rem;
+        font-size: 2rem;
+        margin-top: 1rem;
     }
 }
 
@@ -343,7 +343,7 @@ html {
    
     
 
-    @media screen and (max-width: 1160px)  {
+    @media screen and (max-width: 1060px)  {
         .projects {
             height: 2100px;
         }
@@ -361,8 +361,8 @@ html {
 
         /* add space between the header and text*/
         .projects h1{ 
-            font-size: 3rem;
-            margin-top: 1rem;
+            font-size: 2.2rem;
+            margin-top: 10rem;
         }
 
         .projects p {
@@ -452,15 +452,15 @@ html {
         }
 
         .contact-content a{
-            font-size: 1.5rem;
+            font-size: 2.5rem;
         }
 
         .contact-content a::before, .contact-content a::after {
             content: '';
             position: absolute;
             box-sizing: border-box;
-            height: 8vh;
-            width: 110%;
+            height: 11vh;
+            width: 100%;
             transition: .3s linear;
         }
     }
