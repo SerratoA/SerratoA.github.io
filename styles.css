@@ -415,7 +415,16 @@ html {
         margin: 0 1.5rem;
         transition: .3s linear;
     }
-
+    .contact-content a::before, .contact-content a::after {
+        content: '';
+        position: absolute;
+        box-sizing: border-box;
+        height: 8vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        transition: .3s linear;
+    }
     
 
     .contact-content a:hover{
@@ -444,5 +453,14 @@ html {
 
         .contact-content a{
             font-size: 1.5rem;
+        }
+
+        .contact-content a::before, .contact-content a::after {
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            height: 8vh;
+            width: 110%;
+            transition: .3s linear;
         }
     }
